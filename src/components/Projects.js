@@ -14,7 +14,7 @@ const Projects = () => {
             <h3>E-Learning</h3>
             <p>Mobile Development</p>
             <p>Smart practice for English exams – anytime, anywhere.</p>
-            <a href="https://github.com/wuaan0903/MobileAppToeic" className="project-link" target="_blank">More Info</a>
+            <a href="https://github.com/wuaan0903/MobileAppToeic" className="project-link" target="_blank"> <i class="fa-solid fa-arrow-right project-icon"></i> More Info</a>
           </div> 
           <div className="project-card">
             <div className="project-image">
@@ -23,7 +23,7 @@ const Projects = () => {
             <h3>E-Commerce - 79Sportswear</h3>
             <p>Web Development</p>
             <p>Smart Shopping for Men's Sportswear & Casualwear</p>
-            <a href="https://github.com/wuaan0903/PRJ_TMDT" className="project-link" target="_blank">More Info</a>
+            <a href="https://github.com/wuaan0903/PRJ_TMDT" className="project-link" target="_blank"> <i class="fa-solid fa-arrow-right project-icon"></i> More Info</a>
           </div>
           <div className="project-card">
             <div className="project-image">
@@ -32,7 +32,7 @@ const Projects = () => {
             <h3>HauSummarize</h3>
             <p>Web Development & Machine Learning</p>
             <p>Summarize Smarter with T5</p>
-            <a href="https://github.com/wuaan0903/HAUSummarize" className="project-link" target="_blank">More Info</a>
+            <a href="https://github.com/wuaan0903/HAUSummarize" className="project-link" target="_blank"> <i class="fa-solid fa-arrow-right project-icon"></i> More Info</a>
           </div>
           <div className="project-card">
             <div className="project-image">
@@ -41,7 +41,7 @@ const Projects = () => {
             <h3>Online Football Field Booking System</h3>
             <p>Web Development</p>
             <p>Football Pitch Management System for Hanoi Green</p>
-            <a href="https://gitlab.com/penmoding/football-booking-web" className="project-link" target="_blank">More Info</a>
+            <a href="https://gitlab.com/penmoding/football-booking-web" className="project-link" target="_blank"><i class="fa-solid fa-arrow-right project-icon"></i> More Info</a>
           </div>
 
         </div>
