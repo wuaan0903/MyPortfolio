@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import '../index.css';
 
 const Contact = () => {
@@ -17,14 +18,28 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="container">
-        <h2>Get in Touch</h2>
-        <form onSubmit={handleSubmit} className="contact-form">
+        <motion.h1
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="contact-title"
+        >
+          LET'S WORK TOGETHER
+        </motion.h1>
+        <motion.form
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          onSubmit={handleSubmit}
+          className="contact-form"
+        >
           <input
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
             placeholder="Your Name"
+            required
           />
           <input
             type="email"
@@ -32,15 +47,17 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="Your Email"
+            required
           />
           <textarea
             name="message"
             value={formData.message}
             onChange={handleChange}
             placeholder="Your Message"
+            required
           ></textarea>
           <button type="submit" className="btn-submit">Send Message</button>
-        </form>
+        </motion.form>
       </div>
     </section>
   );
