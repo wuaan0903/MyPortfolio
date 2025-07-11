@@ -27,7 +27,7 @@ const Projects = () => {
             className="project-card"
           >
             <div className="project-image">
-              <img src="https://i.ibb.co/5g0VHGGb/z6757426073565-a960499787265ab002eaf365eeca0141.png" alt="E-Learning" />
+              <img src="https://i.imgur.com/zIkoL0R.png" alt="E-Learning" />
             </div>
             <h3>E-Learning</h3>
             <p>Mobile Development</p>
@@ -43,7 +43,7 @@ const Projects = () => {
             className="project-card"
           >
             <div className="project-image">
-              <img src="https://i.ibb.co/Q4m5Q21/5d5bf0227428029-683fed74ca30b.png" alt="79sportswear" />
+              <img src="https://i.imgur.com/42FbF9P.jpeg" alt="79sportswear" />
             </div>
             <h3>E-Commerce - 79Sportswear</h3>
             <p>Web Development</p>
@@ -59,7 +59,7 @@ const Projects = () => {
             className="project-card"
           >
             <div className="project-image">
-              <img src="https://i.ibb.co/3933xhgw/29b33a225199147-6819261ad7abf.png" alt="HauSummarize" />
+              <img src="https://i.imgur.com/LnvfDoc.png" alt="HauSummarize" />
             </div>
             <h3>HauSummarize</h3>
             <p>Web Development & Machine Learning</p>
@@ -75,7 +75,7 @@ const Projects = () => {
             className="project-card"
           >
             <div className="project-image">
-              <img src="https://i.ibb.co/6cmpGztJ/hanoigreen.png" alt="Online Football Field Booking System" />
+              <img src="https://i.imgur.com/wBTSHKq.jpeg" alt="Online Football Field Booking System" />
             </div>
             <h3>Online Football Field Booking System</h3>
             <p>Web Development</p>
