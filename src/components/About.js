@@ -29,7 +29,7 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="profile-info"
           >
-            <h3>Nguyen Minh Quan</h3>
+            <h3>Quan Nguyen Minh</h3>
             <p>
               <span className="info-icon"><i className="fas fa-birthday-cake"></i> <strong>Birthdate:</strong> 09/03/2003   </span> 
               <span className="info-icon"><i className="fas fa-map-marker-alt"></i> <strong>Location:</strong> Ha Noi City, Vietnam</span> 

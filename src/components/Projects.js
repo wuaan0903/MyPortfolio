@@ -32,8 +32,22 @@ const Projects = () => {
             <h3>E-Learning</h3>
             <p>Mobile Development</p>
             <p>Smart practice for English exams – anytime, anywhere.</p>
+            
             <a href="https://github.com/wuaan0903/MobileAppToeic" className="project-link" target="_blank">
-              <i className="fa-solid fa-arrow-right project-icon"></i> More Info
+              <button class="animated-button">
+              <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Modern Info</span>
+              <span class="circle"></span>
+              <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
             </a>
           </motion.div>
           <motion.div
@@ -49,8 +63,23 @@ const Projects = () => {
             <p>Web Development</p>
             <p>Smart Shopping for Men's Sportswear & Casualwear</p>
             <a href="https://github.com/wuaan0903/PRJ_TMDT" className="project-link" target="_blank">
-              <i className="fa-solid fa-arrow-right project-icon"></i> More Info
+              <button class="animated-button">
+              <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Modern Info</span>
+              <span class="circle"></span>
+              <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
             </a>
+
+            
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -64,8 +93,22 @@ const Projects = () => {
             <h3>HauSummarize</h3>
             <p>Web Development & Machine Learning</p>
             <p>Summarize Smarter with T5</p>
+            
             <a href="https://github.com/wuaan0903/HAUSummarize" className="project-link" target="_blank">
-              <i className="fa-solid fa-arrow-right project-icon"></i> More Info
+              <button class="animated-button">
+              <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Modern Info</span>
+              <span class="circle"></span>
+              <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
             </a>
           </motion.div>
           <motion.div
@@ -80,8 +123,22 @@ const Projects = () => {
             <h3>Online Football Field Booking System</h3>
             <p>Web Development</p>
             <p>Football Pitch Management System for Hanoi Green</p>
+            
             <a href="https://gitlab.com/penmoding/football-booking-web" className="project-link" target="_blank">
-              <i className="fa-solid fa-arrow-right project-icon"></i> More Info
+              <button class="animated-button">
+              <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Modern Info</span>
+              <span class="circle"></span>
+              <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
             </a>
           </motion.div>
         </motion.div>
